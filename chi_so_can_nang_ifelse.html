@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉ số cân nặng cơ thể</title>
+</head>
+<body>
+<script>
+    let weight= prompt("How many is your weight?");
+    let height = prompt("How much is your height?");
+    let bmi = Number(weight)/Number(height);
+    //alert("Your Interpretation"+ "Obese");
+    if (bmi>=30){
+        alert("Your Interpretation "+ "Obese");
+    } else if (bmi>=25){
+        alert("Your Interpretation "+ "Overweight");
+    } else if (bmi>=18){
+        alert("Your Interpretation "+ "Nomal");
+    } else {
+        alert("Your Interpretation "+ "Underweight");
+    }
+</script>
+</body>
+</html>
